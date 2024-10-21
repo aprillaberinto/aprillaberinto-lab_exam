@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your go-to bookstore for the best reads.">
+    <meta name="description" content="Classy Bookstore offers a vast collection of books across all genres, from fiction to non-fiction. Discover the best reads and exclusive book deals today.">
+    <meta name="keywords" content="books, bookstore, literature, fiction, non-fiction, bestsellers, novels, book deals">
+    <meta name="author" content="Tamtam, Lopez, Salipnget team">
+    <title>Classy Bookstore | Best Books Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BookStore",
+          "name": "Classy Bookstore",
+          "description": "A wide range of books across genres.",
+          "url": "https://aprillaberinto.github.io/labexam/",
+        }
+        </script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <section>
+        <h1 class="h1">Classy Bookstore</h1>
+   <nav>  
+    <button class="menu-toggle" onclick="toggleMenu()">Menu</button>
+      
+            <ul id="nav-links">
+                <li><a href="#about">About </a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav></section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Classy Bookstore offers a wide range of books across all genres. Our mission is to provide quality reads to book lovers everywhere.</p>
+    </section>
+
+    <section id="books">
+        <h2>Our Collection</h2>
+        
+        <!-- Search bar for filtering books -->
+        <div class="search-bar">
+            <input type="text" id="bookSearch" placeholder="Search for books..." onkeyup="searchBooks()">
+        </div>
+        
+        <div class="book-list" id="bookList">
+            <div class="book-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1K_Y8KVyiu2GbBwKQix-8Bi7yhDsxOQBUw&s" alt="Cover of Walk into the Shadow by Stelle Darcy">
+                <h3>Walk into the Shadow</h3>
+                <p>Author: Stelle Darcy</p>
+            </div>
+            <div class="book-item">
+                <img src="https://marketplace.canva.com/EAFf0E5urqk/1/0/1003w/canva-blue-and-green-surreal-fiction-book-cover-53S3IzrNxvY.jpg" alt="Cover of Hide and Seek by Olivia Wilson">
+                <h3>Hide and Seek</h3>
+                <p>Author: Olivia Wilson</p>
+            </div>
+            <div class="book-item">
+                <img src="https://images-platform.99static.com//-tUjEZmbTnIMpiyAMy6CiS85KYY=/137x101:962x926/fit-in/500x500/projects-files/101/10168/1016819/4d520fb3-bab8-4d4a-a209-17731bb9da86.jpg" alt="Cover of The Good Sister by Alexa Byle">
+                <h3>The good sister</h3>
+                <p>Author: Alexa Byle</p>
+            </div>
+            <div class="book-item">
+                <img src="https://www.adobe.com/express/create/cover/media_19d5e212dbe8553614c3a9fbabd4d7f219ab01c85.png?width=750&format=png&optimize=medium" alt="Cover of Don't Look Back by Isaan Nelso">
+                <h3>Dont loob back</h3>
+                <p>Author: Isaan Nelso</p>
+            </div>
+            <div class="book-item">
+                <img src="https://skyryedesign.com/wp-content/uploads/2016/04/56c6f9b7efad5-cover-books-design-illustrations.jpg" alt="Cover of The Boy with the Tiger's Heart by Linda Coggin">
+                <h3>The boy with the tiger's heart</h3>
+                <p>Author: Linda Coggin</p>
+            </div>
+            <div class="book-item">
+                <img src="https://lh5.googleusercontent.com/proxy/mkf0J0FVLxeJ6VTkNWa_tv4UYlHOB8uDpe_exCsR8dOGsYUUydCF0avlRkpIHI4TgB2QjHHCYXfEEMMkdrDb6e30E0AkCCmNuoBDRjJROjkqItcfYpdhZpb__GezBigApY0Cpq6539YWcAemrB5Fr1I" alt="Cover of The City of the Edge by Mark Goldman">
+                <h3>The City of the edge</h3>
+                <p>Author: Mark Goldman</p>
+            </div>
+            <div class="book-item">
+                <img src="https://rocketexpansion.com/wp-content/uploads/2021/05/Iron-Hand-1.webp" alt="Cover of Iron Hand by Daniel Gibbs">
+                <h3>Iron Hand</h3>
+                <p>Author: Daniel Gibbs</p>
+            </div>
+            <div class="book-item">
+                <img src="https://rocketexpansion.com/wp-content/uploads/2021/05/God-of-Mercy-1.webp" alt="Cover of God of Mercy by Okezie Nwoka">
+                <h3>God of Mercy</h3>
+                <p>Author: Okezie Nwoka</p>
+            </div>
+            <div class="book-item">
+                <img src="https://rocketexpansion.com/wp-content/uploads/2021/05/Revolution-Street-1.webp" alt="Cover of Revolution Street by Amir Chemeltan">
+                <h3>Revolution Street</h3>
+                <p>Author: Amir Chemeltan</p>
+            </div>
+            <div class="book-item">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/cf9ef473575103.5c0e936869d45.jpg" alt="Cover of Racism and the Filipino Diaspora by E. San Juan Jr.">               <h3>Racism and the Filipino Diospora</h3>
+                <p>Author: E. San Juan Jr.</p>
+            </div>
+            <!-- Add more books as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Classy Bookstore. All rights reserved.</p>
+        <P>By: April  Bhay Laberinto</P>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
